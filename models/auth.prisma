@@ -73,6 +73,7 @@ model User {
 }
 
 model VerificationRequest {
+  // esto es un comentario
   id         String   @id @default(cuid())
   identifier String
   token      String   @unique
